@@ -39,6 +39,33 @@
         
         <div id="errorMessage" class="error-message" style="display: none;"></div>
         
+        <!-- Browse Catalog Section -->
+        <div class="catalog-section">
+            <h2 style="color: #333; margin-bottom: 20px;">Browse Catalog</h2>
+            <div class="catalog-grid">
+                <div class="catalog-item" onclick="browseCategory('Sofas & Sectionals')">
+                    <div class="catalog-icon">🛋️</div>
+                    <div class="catalog-title">Sofas & Sectionals</div>
+                    <div class="catalog-description">Comfortable seating solutions</div>
+                </div>
+                <div class="catalog-item" onclick="browseCategory('Coffee Tables')">
+                    <div class="catalog-icon">☕</div>
+                    <div class="catalog-title">Coffee Tables</div>
+                    <div class="catalog-description">Stylish center pieces</div>
+                </div>
+                <div class="catalog-item" onclick="browseCategory('Lighting')">
+                    <div class="catalog-icon">💡</div>
+                    <div class="catalog-title">Lighting</div>
+                    <div class="catalog-description">Ambient and task lighting</div>
+                </div>
+                <div class="catalog-item" onclick="browseCategory('Rugs & Textiles')">
+                    <div class="catalog-icon">🏺</div>
+                    <div class="catalog-title">Rugs & Textiles</div>
+                    <div class="catalog-description">Soft furnishings</div>
+                </div>
+            </div>
+        </div>
+        
         <video id="video" style="display: none;" autoplay playsinline></video>
         <button id="captureBtn" class="btn capture-btn" style="display: none;" onclick="capturePhoto()">
             📷 Capture Photo

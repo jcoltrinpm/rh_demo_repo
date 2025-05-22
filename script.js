@@ -114,5 +114,10 @@ function handleDrop(event) {
     }
 }
 
+// Browse Catalog functionality
+function browseCategory(category) {
+    alert(`Browsing ${category} - This feature will be implemented soon!`);
+}
+
 // Stop camera when page is unloaded
 window.addEventListener('beforeunload', stopCamera);
